@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	border: 10px solid #2b81ac;
+	background-color: #3399cc;
+	min-height: 100vh;
+	margin: 0 auto;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #fff;
+
+}
+
+header {}
+
+main {
+	width: 70%;
+	margin: 0 auto;
+}
+
+h1 {
+	margin-left: 260px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-left: 260px;
+	font-size: 16px;
+}
+
+ul {
+	font-size: 0;
+}
+
+li {
+	opacity: 0.6;
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+	height: 110px;
+	border: 4px solid #fff;
+	text-align: center;
+	padding: 40px;
+}
+
+.small {
+	width: 25%;
+}
+
+.medium {
+	width: 50%;
+}
+
+.animation:hover {
+	opacity: 1;
+	transition: all .1s ease-in;
+}
+
+.color1 {
+	background-color: #3399CC;
+}
+
+.color2 {
+	background-color: #33CCCC;
+}
+
+.color3 {
+	background-color: #8B5D8B;
+}
+
+.color4 {
+	background-color: #C24747;
+}
+
+.color5 {
+	background-color: #E2674A;
+}
+
+.color6 {
+	background-color: #FFCC66;
+}
+
+.color7 {
+	background-color: #8BB98B;
+}
+
+.color8 {
+	background-color: #669999;
+}
+
+.color9 {
+	background-color: #CC6699;
+}
+
+.color10 {
+	background-color: #339966;
+}
+
+.color11 {
+	background-color: #666699;
+}
