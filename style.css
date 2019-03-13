@@ -1,103 +1,124 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	border: 10px solid #2b81ac;
-	background-color: #3399cc;
-	min-height: 100vh;
-	margin: 0 auto;
-	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
-	color: #fff;
+  border: 10px solid #2b81ac;
+  background-color: #3399cc;
+  min-height: 100vh;
+  font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+  color: #fff;
+  margin: 0;
 
 }
 
-header {}
-
 main {
-	width: 70%;
-	margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 h1 {
-	margin-left: 255px;
-	margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+
 }
 
 h2 {
-	margin-left: 255px;
-	font-size: 16px;
+  font-size: 16px;
+  padding-top: 10px;
 }
 
 ul {
-	font-size: 0;
+  font-size: 0;
+  padding: 0;
 }
 
+
 li {
-	opacity: 0.6;
-	display: inline-block;
-	font-size: 16px;
-	width: 100%;
-	height: 110px;
-	border: 4px solid #fff;
-	text-align: center;
-	padding: 25px;
+  opacity: 0.6;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  height: 110px;
+  border: 4px solid #fff;
+  text-align: center;
+  padding: 25px;
+  margin: 0 auto;
 
 }
 
 .small {
-	width: 25%;
+  width: 25%;
 }
 
 .medium {
-	width: 50%;
+  width: 50%;
 }
 
-.animation:hover {
-	opacity: 1;
-	transition: all .1s ease-in;
+li:hover {
+  opacity: 1;
+  transition: all .1s ease-in;
 }
 
-.color1 {
-	background-color: #3399CC;
+.container, h1, h2 {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.color2 {
-	background-color: #33CCCC;
+@media screen and (max-width: 686px)  {
+        .small {
+        width: 100%;
+      }
+
+      .medium {
+        width: 100%;
+      }
+        
 }
 
-.color3 {
-	background-color: #8B5D8B;
+.Lisbon {
+  background-color: #3399CC;
 }
 
-.color4 {
-	background-color: #C24747;
+.Paris {
+  background-color: #33CCCC;
 }
 
-.color5 {
-	background-color: #E2674A;
+.Belgrade {
+  background-color: #8B5D8B;
 }
 
-.color6 {
-	background-color: #FFCC66;
+.Moscow {
+  background-color: #C24747;
 }
 
-.color7 {
-	background-color: #8BB98B;
+.TelAviv {
+  background-color: #E2674A;
 }
 
-.color8 {
-	background-color: #669999;
+.Cair {
+  background-color: #FFCC66;
 }
 
-.color9 {
-	background-color: #CC6699;
+.NewYork {
+  background-color: #8BB98B;
 }
 
-.color10 {
-	background-color: #339966;
+.NewDelhi {
+  background-color: #669999;
 }
 
-.color11 {
-	background-color: #666699;
+.SanFrancisco {
+  background-color: #CC6699;
+}
+
+.Tokyo {
+  background-color: #339966;
+}
+
+.Sydney {
+  background-color: #666699;
 }
